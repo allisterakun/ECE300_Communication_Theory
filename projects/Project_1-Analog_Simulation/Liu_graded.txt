@@ -1,0 +1,7 @@
+Hi Allister
+
+
+This is good code, but you’ve made a number of mistakes in your experiments. The report is also messy the way you’ve made it. It isn’t terrible, but you didn’t really give any reasons for WHY problems turned up. Much of the reason is that you aren’t actually computing SNR correctly in some cases, and moreover, you have lots of aliasing in FM!
+If you had tried to be more descriptive about WHY things seem wrong, you might have realized why in some cases! If you didn’t find the specific error, you could have written a few ideas as to why.
+All of your mod schemes work though, which is most of the points.
+80%

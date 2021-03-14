@@ -1,0 +1,7 @@
+Hi all,
+You have written a very nice report with nicely formatted and commented MATLAB code, which also seems more-or-less efficient.
+Unfortunately, your code has two major implementation errors that I will have to subtract some points for. The first is in terms of noise – many students got this wrong, but you can see in your binary signaling graphs that your practice matches theory after an SNR-wise shift of a few dB. This is because you have implemented variance of noise incorrectly. For all of your graphs, the TRUE SNR/bit is HIGHER than what you have plotted, and so all of the graphs need to be shifted to the right a bit. You would see a near-perfect match in the binary case. That was a common error, -5 pts.
+The other is more severe – you have a clear mistake in your DPSK algorithm. The Perror should NOT plateau above 0. If the SNR is arbitrarily high, the Perror should approach 0. This can only be due to a mistake in your DPSK! That’s a big part of the project, so unfortunately that’s -10.
+85/100
+Please let me know if you have any questions or gripes!
+-Brian Frost

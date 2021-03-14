@@ -1,0 +1,2 @@
+97/100
+lost points on q5 because mag squared is incorrectly performed
